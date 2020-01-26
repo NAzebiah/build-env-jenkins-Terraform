@@ -20,9 +20,11 @@ Connect to your Jenkins server via ssh and run this command to get the admin pas
 
 jenkins scipt image 
 
-Jenkins server
+# Jenkins server
+
 The provisioning of the Jenkins server and installation of plugins is automated in the compute.tf by calling install_jenkins.sh
 This installs Java, Mavn, Git, Jenkins, SSH and configures the git plugins 
 
-Web server 
+# Web server 
+
 The provisioning of the webserver is automated in the compute.tf by calling install_httpd.sh this set up the webserver elements and puts a test html page up for you to view
